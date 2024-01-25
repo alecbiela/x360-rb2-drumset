@@ -1,18 +1,7 @@
-# ArduinoMidiDrums
-- Author: Evan Kale
-- Email: evankale91@gmail.com
-- Web: ISeeDeadPixel.com
-- Blog: evankale.blogspot.ca
+# RB2 to USB
+- Author: Alec Bielanos
+- A fork of https://github.com/evankale/ArduinoMidiDrums by Evan Kale
 
-See a demo video here:
-https://youtu.be/vi-w_WqJjzQ
+This project seeks to convert a wireless Xbox 360 drum controller (specifically, the Rock Band 2 era XBDMS2) to a wired PC controller for use with Clone Hero and similar software. The uC used is an AtMega 32u4-based controller so that we can use the Arduino Joystick library and native USB functionality for sending inputs to the PC. This mod is also designed to be fully reversible, in the event that the controller needs to be returned to its original state.
 
-A velocity sensitive MIDI drum program with realistic feedback.
-
-With the help of an Arduino, we can turn that Guitar Hero or Rock Band controller into a real MIDI drum kit for recording purposes!
-
-Blog post:
-http://evankale.blogspot.ca/2015/07/arduino-midi-drums.html
-
-Instructables post:
-http://www.instructables.com/id/Convert-Rockband-Controller-to-MIDI-Drums/
+More information is forthcoming as this project develops.
